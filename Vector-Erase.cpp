@@ -13,7 +13,7 @@ int main() {
   for (auto x : my_vec) {
     std::cout << x << std::endl;
   }
-  my_vec.erase(my_vec.begin() + 1, my_vec.begin() + 3);
+  my_vec.erase(my_vec.begin() + 1, my_vec.begin() + 4);
   std::cout << my_vec.size() << std::endl;
   for (int i = 0; i < my_vec.size(); i++) {
     std::cout << "After:\n" << my_vec[i] << " ";
